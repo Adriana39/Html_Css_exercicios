@@ -1,0 +1,46 @@
+
+body{
+    background-color: gray;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+main{
+    background-color: rgb(224, 150, 150);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(185, 87, 51, 0.663);
+}
+header{
+text-align: center;
+color: blue;
+}
+
+nav{
+    text-align: left;
+    color: #a10726;
+
+}
+
+section{
+    text-align: right;
+    color: darkgreen;
+}
+
+article{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    text-align: left;
+    text-indent: 30px;
+    color: black;
+}
+
+span{
+    color: darkorange;
+}
+

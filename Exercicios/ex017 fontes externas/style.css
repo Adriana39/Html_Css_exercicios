@@ -1,0 +1,54 @@
+/* para inserir fontes externas/ baixadas = no css devemos utilizar o paramentro @font-face -criar um nome- inserir a url(que o nome da fonte baixada- inserir o formado 
+adcionar font weight e font style como normal
+tipos de formatos()
+-opentypr(otf)
+-truetyoe(ttf)
+-embedded-opentype
+-truetype-aat(apple advanced typography
+-svg
+usar o Ninjafont(extensão google chrome) para desconbrir qual fonte o site inspiração está usando no exemplo - procurei fonte do site netflix
+*/
+
+@font-face {
+    font-family: 'Orange';
+    src: url('fontes/Orange\ Squash\ Free.otf') format('opentype'), url('fontes/Orange\ Squash\ Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body {
+    background-image: linear-gradient(to left, #F29F05, #F25F29)
+}
+
+main {
+    background-color: #F2E205;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px#696201b9;
+
+
+}
+
+section{
+    background-color: white;
+}
+
+aside{
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Orange', Times, serif;
+    color: #000000;
+    text-align: center;
+    text-shadow: 10x 10x 15px rgba(158, 155, 155, 0.5);
+    font-weight: normal;
+
+}

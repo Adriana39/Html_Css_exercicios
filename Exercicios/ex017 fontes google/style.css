@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+
+* {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to left, #C1D9D4, #56735A, #485946);
+
+}
+
+main{
+    background-color: #323F59;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px #485946;
+
+
+}
+
+h1{
+    color: #0D0D0D;
+    text-align: center;
+    text-shadow: 10x 10x 15px rgba(158, 155, 155, 0.5);
+}
+
+h2{
+    color: #0D0D0D;
+}
