@@ -12,41 +12,68 @@
     TR, TD, TH
     TFOOT
     TR, TD, TH
+    mecanismo de busca= scopo = col( coluna dados estão na coluna) ou row (dados estão na linha)
+    efeito zebrado = uma linha de cada cor
+    mesclagem de celular = 
 -->
     <style>
         body {
             font-family: 'Courier New', Courier, monospace;
             font-variant: small-caps;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 600;
             font-style: oblique;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
 
         }
 
         table {
-            width: 500px;
-
+            width: 400px;
             border-collapse: collapse;
             font-weight: bold;
             font-style: italic;
-            font-size: 21px;
+            font-size: 18px;
             text-align: center;
+            background-color: #eaecf0;
+            position: relative;
+      
             /*alinhamento horizontal =left/center/righ*/
             vertical-align: bottom;
             /*alinhamento vertical =top/midlle/bottom*/
             font-variant: small-caps;
             /*variação da fonte para tudo maisculo*/
         }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #338A9B;
+        }  /*usamos essas configurações para fixar cabeçalo da tabela e gerar a rolagem fixa*/
 
+tbody > tr:nth-child(2n){
+    background-color: #969595;
+    color: white;
+}  /*para efeito zebrado*/
 
         td,th {
-            border: 1px solid black;
+            border: 1px solid #6d6a6a;
             padding: 10px;
 
         }
-        tfoot, thead{
-            background-color: rgba(137, 137, 156, 0.842);
-            color: aliceblue;
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 20px;
+            background-color: #3e3f3f;
+            color:#f8f9fa;
+
+        }
+
+        tfoot,
+        thead {
+            background-color: #338A9B;
+            color: #ffffff;
         }
     </Style>
 
@@ -58,6 +85,7 @@
 <body>
     <H1>Minha Segunda Tabela</H1>
     <Table>
+        <caption>População das Unidades Federativa</caption>
         <thead>
             <tr>
                 <th>Unidade Federativa</th>
@@ -87,6 +115,146 @@
                 <td>8.794.957</td>
                 <td>+4.05%</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
         </tbody>
         <tfoot>
             <th><strong>Total de Habitantes</strong></th>
@@ -94,7 +262,8 @@
             <td>10%</td>
         </tfoot>
     </Table>
-
+    <h1>teste texto</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempora laborum eum dignissimos molestiae laboriosam sed quam voluptatum dolore inventore? Autem accusantium sit reprehenderit fuga, quaerat expedita illo ipsam. Nihil!</p>
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Mesclada</title>
+    <style>
+         /*espação entre colunas utilizamos o colspan = expansão entre linhas utilizamos rowspan*/
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 350px;
+        }
+
+        td {
+            border: 2px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minha terceira tabela</h1>
+    <h2>Treinando a mesclagem das celulas</h2>
+    <table>
+        <tr>
+            <td rowspan="3">A</td>
+            <td colspan="2">B</td> 
+            
+        </tr>
+        <tr>
+           
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+           
+            <td>H</td>
+           
+        </tr>
+        <tr>
+            <td colspan="3">J</td>
+            
+        </tr>
+    </table>
+</body>
+
+</html>
