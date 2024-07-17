@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ANATOMIA PARA TABELAS GRANDES
+    TABLE
+    THEAD
+    TR, TD, TH
+    TBODY
+    TR, TD, TH
+    TFOOT
+    TR, TD, TH
+-->
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-variant: small-caps;
+            font-size: 30px;
+            font-weight: 600;
+            font-style: oblique;
+
+        }
+
+        table {
+            width: 500px;
+
+            border-collapse: collapse;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 21px;
+            text-align: center;
+            /*alinhamento horizontal =left/center/righ*/
+            vertical-align: bottom;
+            /*alinhamento vertical =top/midlle/bottom*/
+            font-variant: small-caps;
+            /*variação da fonte para tudo maisculo*/
+        }
+
+
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        tfoot, thead{
+            background-color: rgba(137, 137, 156, 0.842);
+            color: aliceblue;
+        }
+    </Style>
+
+    </style>
+    <title>Tabela002</title>
+
+</head>
+
+<body>
+    <H1>Minha Segunda Tabela</H1>
+    <Table>
+        <thead>
+            <tr>
+                <th>Unidade Federativa</th>
+                <th> População</th>
+                <th> Mudança</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.411.238</td>
+                <td>+7.63%</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>830.018</td>
+                <td>+13.015%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.127.683</td>
+                <td>+0.23%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>8.794.957</td>
+                <td>+4.05%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th><strong>Total de Habitantes</strong></th>
+            <td>70.000.000</td>
+            <td>10%</td>
+        </tfoot>
+    </Table>
+
+</body>
+
+</html>

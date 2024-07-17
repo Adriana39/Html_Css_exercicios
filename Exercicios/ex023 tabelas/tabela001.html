@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--HIERAQUIA DE TABELAS SIMPLES
+        TABLE = TABELA
+        TABLE ROW = LINHA DE TABELA
+        TABLE HEADER = CABEÇALHO DE TABELA
+        TABLE DATA = DADO DA TABELA ( CELULA)
+-->
+    <title>Tabela001</title>
+    <Style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-variant: small-caps;
+            font-size: 30px;
+            font-weight: 600;
+            font-style: oblique;
+            
+        }
+table{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 21px;
+    text-align: center; /*alinhamento horizontal =left/center/righ*/
+    vertical-align: bottom; /*alinhamento vertical =top/midlle/bottom*/
+    font-variant: small-caps;/*variação da fonte para tudo maisculo*/
+}
+tr.linha{
+    background-color: blue;
+    vertical-align: top;
+}
+
+td.dado{
+    background-color: gold;
+    vertical-align: bottom;
+}
+
+td{
+    border: 1px solid black;
+}  
+    </Style>
+    
+</head>
+
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="dado">C3</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
