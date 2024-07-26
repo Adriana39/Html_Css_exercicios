@@ -18,6 +18,13 @@
             text-align: center;
             background-color: rgb(214, 216, 210);
         }
+        td.rowspan{
+            background-color: blue;
+        }
+
+        td.colspan{
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -26,7 +33,7 @@
         <tr>
             <td>1</td>
             <td>2</td>
-            <td rowspan="2">3</td>
+            <td rowspan="2" class="rowspan">3</td>
             <td>4</td>
         </tr>
         <tr>
@@ -36,13 +43,13 @@
             <td>7</td>
         </tr>
         <tr>
-            <td colspan="3">8</td>
+            <td colspan="3" class="colspan">8</td>
          
             <td>9</td>
         </tr>
         <tr>
-            <td rowspan="2">10</td>
-            <td colspan="2">11</td>
+            <td rowspan="2" class="rowspan">10</td>
+            <td colspan="2"class="colspan">11</td>
             
             <td>12</td>
         </tr>

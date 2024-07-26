@@ -18,18 +18,25 @@
         padding: 15px;
         text-align: center;
     }
+    td.colspan{
+        background-color: red;
+    }
+
+    td.rowspan{
+        background-color: green;
+    }
   </style>
 </head>
 <body>
     <h1>Desafio 2 Tabelas mescladas</h1>
     <table>
         <tr>
-            <td colspan="4">A</td>
+            <td colspan="4" class="colspan">A</td>
             
-            <td rowspan="4">B</td>
+            <td rowspan="4" class="rowspan">B</td>
         </tr>
         <tr>
-            <td rowspan="4">C</td>
+            <td rowspan="4" class="rowspan">C</td>
             <td>D</td>
             <td>E</td>
             <td>F</td>
@@ -51,7 +58,7 @@
         </tr>
         <tr>
             
-            <td colspan="4">N</td>
+            <td colspan="4" class="colspan">N</td>
          
         </tr>
     </table>
